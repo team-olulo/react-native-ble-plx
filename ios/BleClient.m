@@ -7,7 +7,7 @@
 //
 
 #import "BleClient.h"
-@import MultiplatformBleAdapter;
+@import KMultiplatformBleAdapter;
 
 @interface BleModule () <BleClientManagerDelegate>
 @property(nonatomic) BleClientManager* manager;
